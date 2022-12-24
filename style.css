@@ -1,0 +1,76 @@
+/* The base of every button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding:6px 12px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    vertical-align: middle;
+    
+    
+}
+    /* The base of every button */
+.btn {
+    color: #fff;
+}
+/* Additional styles for "Default" */
+.btn-default {
+    color: black;
+    background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default:hover {
+    background-color: #5c3838;
+    border-color: #300909;
+}
+/* Additional styles for "primary" */
+.btn-primary {
+    background-color: #337ab7;
+    border: #040c13; 
+}
+.btn-primary:hover {
+    background-color: #286090;
+    border: #040c13;
+}
+.btn-succes {
+    background-color: #0f310f;
+    border: #3e1357;
+}
+.btn-succes:hover {
+    background-color: #5cb85c;
+    border: #10495f;
+}
+.btn-info {
+    background-color: chocolate;
+    border: #3e1357;
+}
+.btn-info:hover {
+    background-color: burlywood;
+    border: #5cb85c;
+}
+.btn-warning {
+    background-color: #27310f;
+    border: #27310f;
+}
+.btn-warning:hover {
+background-color: blue;
+border: #300909;
+} 
+.btn-danger {
+    background-color: burlywood;
+    border: #5c3838;
+}
+.btn-danger:hover {
+    background-color: dimgray;
+    border: #5c3838;
+}
+  
+ 
+
+
